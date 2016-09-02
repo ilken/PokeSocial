@@ -5,3 +5,4 @@ function initMap() {
     zoom: 12
   });
 }
+//<script src="https://maps.googleapis.com/maps/api/js?mid=1LaxQce7285aQDZNTAvVl0X2UnRM&key=AIzaSyBQrAK_vZT6ssDl4SbXQOL0wv8iZfH66Vk&callback=initMap" async defer></script>
