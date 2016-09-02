@@ -1,0 +1,26 @@
+<table class="table table-inverse">
+<thead>
+<tr>
+	<th>#</th>
+	<th>Name</th>
+	<th>Type</th>
+	<th></th>
+</tr>
+</thead>
+<tbody>
+	<% _.each(data, function(pokemon) { %>
+	<tr>
+		<th scope="row"><%=pokemon.Number%></th>
+		<td><%=pokemon.Name%></td>
+		<td>
+				<% _.each(pokemon.Types, function(type) { %>
+					<%=type%>
+				<% }); %>
+		</td>
+		<td>
+			<button class="btn btn-danger detailsBtn" data-pokeid="<%=pokemon.Number%>" type="button">Details</button>
+		</td>
+	</tr>
+	<% }); %>
+</tbody>
+</table>

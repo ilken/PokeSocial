@@ -1,0 +1,20 @@
+{
+  "name": "Skeleton Site",
+  "description": "Skeleton site with Gulp Server, Bower, Sass & Node packages",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6",
+    "underscore": "^1.8.3",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}
